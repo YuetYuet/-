@@ -7,9 +7,6 @@
 <li>日期範圍 : 2022年6月1日~6月10日、區域範圍 : 六都<br></li>
 </ul>
 
-<h3>User</h3>
-  <p>目標客群 : 所有人</p>
-
 <h3>Method</h3>
 <ul>
   <li><p>使用動態爬蟲-Selenium，抓取網站的資料，自動切換日期進行爬蟲，直到已設定的結束日期，過程中一邊進行data clean。</p></li>
@@ -17,7 +14,19 @@
   <li><p>使用Tkinter建立小程式介面，提供使用者查詢，並為使用者提供符合條件的前三名飯店資訊。</p></li>
   <li><p>程式設計概念如下圖 : </p></li>
   <br>
-  <img src="https://imgur.com/D30UKii.png" width="675" height="350"/><br>
+  <img src="https://imgur.com/h7VO5h1.png" width="675" height="350"/><br>
+</ul>
+
+<h3>達成專題二的未來期望</h3>
+<ul>
+  <li>將區域擴大至變六都或全台灣<br></li>
+  <li>入住日期範圍增加<br></li>
+  <li>房型選擇多樣化<br></li>
+  <li>增加資料來源，例如 : Hotel.com之類的訂房網<br></li>
+  <li>增加Google Map資訊<br></li>
+  <li>將資料存放至Database<br></li>
+  <br>
+  <img src="https://imgur.com/h7VO5h1.png" width="675" height="350"/><br>
 </ul>
 
 
