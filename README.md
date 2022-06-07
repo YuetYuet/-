@@ -4,18 +4,17 @@
 <h3>資料來源</h3>
 <ul>
 <li> Booking.com訂房網站</li>
-<li>Agoda訂房網站</li>
-<li>日期範圍 : 2022年5月1日~5月10日、限定區域 : 台北市<br></li>
+<li>日期範圍 : 2022年6月1日~6月10日、區域範圍 : 六都<br></li>
 </ul>
 
 <h3>User</h3>
-  <p>目標客群 : 商務旅客</p>
+  <p>目標客群 : 所有人</p>
 
 <h3>Method</h3>
 <ul>
-  <li><p>使用動態爬蟲-Selenium，抓取2個網站的資料，自動切換日期進行爬蟲，直到已設定的結束日期。</p></li>
-  <li><p>爬取的資料皆存放至Excel中，進而在excel中執行data clean。</p></li>
-  <li><p>使用Tkinter建立小程式介面，提供使用者查詢，並為使用者提供評分最高的前三間飯店資訊。</p></li>
+  <li><p>使用動態爬蟲-Selenium，抓取網站的資料，自動切換日期進行爬蟲，直到已設定的結束日期，過程中一邊進行data clean。</p></li>
+  <li><p>爬取的資料皆存放至MongoDB中。</p></li>
+  <li><p>使用Tkinter建立小程式介面，提供使用者查詢，並為使用者提供符合條件的前三名飯店資訊。</p></li>
   <li><p>程式設計概念如下圖 : </p></li>
   <br>
   <img src="https://imgur.com/D30UKii.png" width="675" height="350"/><br>
