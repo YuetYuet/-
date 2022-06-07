@@ -31,52 +31,10 @@
   <li>將資料存放至Database，本專案使用MongoDB作為儲存空間<br></li>
   <li>增加使用客群，本專案不只針對商務客提供服務，也可以提供給想快速得到合宜飯店的使用者<br></li>
   <br>
-  <img src="https://imgur.com/go6GMW6.png" width="675" height="400/><br>
+  <img src="https://imgur.com/go6GMW6.png" width="600" height="400/><br>
 </ul>
-<br>
-
-<h3>小程式-菈蠂芮</h3>
-<br>
-<ul>
-  <ol>
-  <img src="https://imgur.com/DxHeyRV.png" width="675" height="350"/><br>
-  <br>
-   上圖為小程式操作介面，可供使用者選擇居住地區與入住日期<br>
-  <br>
-  <img src="https://imgur.com/YPd3Kg7.png" width="675" height="350"/><br>
-  <br>
-   上圖為使用者查詢後的介面，提供評分最高的前三間飯店資訊，提供的資訊如下 : <br>
-   <ol>
-   <br>
-   <ul>
-      <li>訂房網站<br></li>
-      <li>飯店名稱<br></li>
-      <li>飯店地址<br></li>
-      <li>入住日期<br></li>
-      <li>房間類型 : 均為雙人房<br></li>
-      <li>價格 : 其費用為入住一晚的價格，包含早餐<br></li>
-      <li>推薦指數<br></li><br>
-   </ul>
-   </ol>
-   推薦指數的計算方式，採用訂房網站針對住宿地點、清潔程度、設施與設備、舒適程度、員工素質與服務...等5個項目，使用加權計算。<br>
-   <br>
-   權重的分配是透過問卷調查，統計100位作答者對挑選飯店的考量順序，得出以下結果 : <br><br>
-   <ol>
-   <ul>
-      <li>住宿地點 權重3<br></li>
-      <li>清潔程度 權重3<br></li>
-      <li>設施與設備 權重2<br></li>
-      <li>舒適程度 權重1<br></li>
-      <li>員工素質與服務 權重1<br></li>
-   </ul>
-   </ol>
-   <br/>
-   <ol>
-   <img src="https://imgur.com/yH1a3o0.png" width="600" height="400" /><br/>
-   </ol>
-   </ol>
-</ul>
-
+                                                               
+                                                               
 <h3>未來期望</h3>
    <ul>
       <li>將區域擴大至變六都或全台灣<br></li>
