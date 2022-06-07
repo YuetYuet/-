@@ -27,7 +27,7 @@
 <ul>
   <br>
   <li>擴充縣市範圍 - 六都，因受到時間與設備限制，僅收錄六都<br></li>
-  <li>入住日期 - 6月1日~6月10日，因受到時間與設備限制，但程式確實可以將整年度資料都擷取<br></li>
+  <li>入住日期 - 6月1日~6月10日，因受到時間與設備限制，僅提供入住一晚的選擇<br></li>
   <li>房型選擇 - 2人房或4人房<br></li>
   <li>增加資料來源，因受到時間與設備限制，所以不擴增，但擴增是可以落實<br></li>
   <li>增加Google Map資訊，因受到Tkinter限制，所以無法嵌入google map，改用按鈕方式導入<br></li>
@@ -37,55 +37,51 @@
 </ul>
 
 <br>
-<h3>資料來源</h3>
-<ul>
-<li> Booking.com訂房網站</li>
-<li>日期範圍 : 2022年6月1日~6月10日、區域範圍 : 六都<br></li>
-</ul>
+<h3>小程式 - 菈蠂芮</h3>
 
-  <br>
-   上圖為小程式操作介面，可供使用者選擇居住地區與入住日期<br>
-  <br>
-  <img src="https://imgur.com/YPd3Kg7.png" width="675" height="350"/><br>
-  <br>
-   上圖為使用者查詢後的介面，提供評分最高的前三間飯店資訊，提供的資訊如下 : <br>
-   <ol>
-   <br>
-   <ul>
-      <li>訂房網站<br></li>
-      <li>飯店名稱<br></li>
-      <li>飯店地址<br></li>
-      <li>入住日期<br></li>
-      <li>房間類型 : 均為雙人房<br></li>
-      <li>價格 : 其費用為入住一晚的價格，包含早餐<br></li>
-      <li>推薦指數<br></li><br>
-   </ul>
-   </ol>
-   推薦指數的計算方式，採用訂房網站針對住宿地點、清潔程度、設施與設備、舒適程度、員工素質與服務...等5個項目，使用加權計算。<br>
-   <br>
-   權重的分配是透過問卷調查，統計100位作答者對挑選飯店的考量順序，得出以下結果 : <br><br>
-   <ol>
-   <ul>
-      <li>住宿地點 權重3<br></li>
-      <li>清潔程度 權重3<br></li>
-      <li>設施與設備 權重2<br></li>
-      <li>舒適程度 權重1<br></li>
-      <li>員工素質與服務 權重1<br></li>
-   </ul>
-   </ol>
-   <br/>
-   <ol>
-   <img src="https://imgur.com/yH1a3o0.png" width="600" height="400" /><br/>
-   </ol>
-   </ol>
-</ul>                                                             
+<br>
+ 下圖為小程式操作介面，可供使用者設定篩選條件<br>
+<br>
+<ol>
+<img src="https://imgur.com/AZywR00.png" width="675" height="400"/><br>
+</ol>
+ 經使用者設定的條件，其選項會變成紅色<br>
+<br>
+<ol>
+<img src="https://imgur.com/OVkdYkg.png" width="675" height="400"/><br>
+</ol>
+ 若使用者條件設定不完全、或是輸入價錢順序不對，皆會挑出提醒視窗，請使用者重新設定<br>
+<br>
+<ol>
+<img src="https://imgur.com/SJ6VTpk.png" width="675" height="400"/><br>
+</ol>
+ 若無符合條件的飯店，則會出現"無空房"的視窗通知使用者<br>
+<br>
+<ol>
+<img src="https://imgur.com/9SffO70.png" width="675" height="400"/><br>
+</ol>
+ 根據條件進行搜尋後，將為使用者提供3間飯店資訊，若符合飯店筆數少於3筆，也會讓使用者知道<br>
+<br>
+<ol>
+<img src="https://imgur.com/cHzEtkM.png" width="675" height="400"/><br>
+<p>僅有一間飯店</p>
+<img src="https://imgur.com/rAkUbiA.png" width="675" height="400"/><br>
+</ol>
+
+ 使用者查詢後的介面，利用考量因素評分進行排序，提供符合條件最高的前三間飯店資訊，提供的資訊如下 : <br>
+ <ul>
+    <li>查詢筆數<br></li>
+    <li>飯店名稱<br></li>
+    <li>飯店地址 : 若需要了解詳細地址，可點選google map按鈕，將引導使用者至google map網頁<br></li>
+    <li>入住日期<br></li>
+    <li>房間類型<br></li>
+    <li>停車資訊<br></li>
+    <li>價格<br></li>
+    <li>使用者入對此飯店有興趣，可以點選booking的按鈕，將引導使用者至訂房頁面<br></li>
+    <li>使用者若不喜歡，還可以點選上、下一筆按鈕切換<br></li><br>
+ </ul>                                           
                                                                
 <h3>未來期望</h3>
    <ul>
-      <li>將區域擴大至變六都或全台灣<br></li>
-      <li>入住日期範圍增加<br></li>
-      <li>房型選擇多樣化<br></li>
-      <li>增加資料來源，例如 : Hotel.com之類的訂房網<br></li>
-      <li>增加Google Map資訊<br></li>
-      <li>將資料存放至Database<br></li>
+      <li>若有足夠經費可以升級硬體設備，技術層面即可達成24小時不停更新訂房網資訊，讓使用者擁有更多篩選條件<br></li>
    </ul>
